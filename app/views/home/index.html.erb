@@ -1,0 +1,11 @@
+<div>
+  <h1 class="font-bold text-4xl">Welcome to Matt-GPT</h1>
+  <p>Experience the power of GPT-based chat.</p>
+</div>
+
+<% if user_signed_in? %>
+  <%= link_to 'Chat', chat_path %>
+  <%= link_to 'Sign Out', destroy_user_session_path, method: :delete %>
+<% else %>
+  <%= link_to 'Sign In', new_user_session_path %>
+<% end %>

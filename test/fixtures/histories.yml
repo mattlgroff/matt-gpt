@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  task: one
+  user: one
+  user_prompt: MyText
+  completion: MyText
+
+two:
+  task: two
+  user: two
+  user_prompt: MyText
+  completion: MyText
